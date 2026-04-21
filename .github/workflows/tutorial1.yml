@@ -1,6 +1,9 @@
 name: tutorial1
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - Dev
 
 jobs:
   job1:
