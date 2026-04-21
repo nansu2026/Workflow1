@@ -7,13 +7,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "I am job 1"
+      - run: echo "Today's date is:"
+      - run: date
 
   job2:
     runs-on: ubuntu-latest
     steps:
       - run: echo "I am job 2"
+      - run: echo "Today's date is:"
+      - run: date
 
   job3:
     runs-on: ubuntu-latest
     steps:
       - run: echo "I am job 3"
+      - run: echo "Today's date is:"
+      - run: date
+
+  job4:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am job 4"
+      - run: echo "Today's date is:"
+      - run: date
