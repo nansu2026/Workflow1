@@ -25,6 +25,7 @@ jobs:
       - run: date
 
   job4:
+    needs: [job1, job2]
     runs-on: ubuntu-latest
     steps:
       - run: echo "I am job 4"
