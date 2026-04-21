@@ -2,7 +2,8 @@ name: tutorial1
 
 on: [push, pull_request]
 
-job1:
+jobs:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: setup python
