@@ -1,0 +1,19 @@
+name: tutorial1
+
+on: [push, pull_request]
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am job 1"
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am job 2"
+
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I am job 3"
